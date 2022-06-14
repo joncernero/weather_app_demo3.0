@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#colorFill {
+  background: linear-gradient(
+    to right,
+    #d8d8d8 100%,
+    #fc3770 90%,
+    #ff7f36 70%,
+    #f6d866 50%,
+    #74c35a 30%,
+    #2c95dd 10%
+  );
+
+  height: 2px;
+  width: 50px;
+}
+
+#tempParentDiv {
+  height: 2px;
+  width: 50px;
+  background-color: #232324;
+  border-radius: 50px;
+  margin: 0 10px;
+}
+
+#tempChildDiv {
+  position: absolute;
+  background: linear-gradient(
+    to right,
+    #d8d8d8 100%,
+    #fc3770 90%,
+    #ff7f36 70%,
+    #f6d866 50%,
+    #74c35a 30%,
+    #2c95dd 10%
+  );
+  border-radius: inherit;
+  height: 100%;
+  width: 100%;
+}
