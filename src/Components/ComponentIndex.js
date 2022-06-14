@@ -6,6 +6,7 @@ import Hourly from './Hourly';
 const ComponentIndex = (props) => {
   const [forecast, setForecast] = useState();
   const [loading, setLoading] = useState(true);
+  console.log('welcome to weather app!');
 
   useEffect(() => {
     function fetchForecast() {
